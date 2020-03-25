@@ -21,10 +21,12 @@ header,
     border-radius: 24px;
     cursor: pointer;
 }
-
-/* .font-size126 {
-    font-size: 100px
-} */
+.about-us-color {
+    color: #3a3e8b !important;
+}
+.footer-color {
+    background-color: #3a3e8b!important;
+}
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
