@@ -5,6 +5,10 @@ header,
     height: 100%;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #intro {
     background: url("../img/background.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -55,7 +59,7 @@ header,
     color: #46484a; }
   
   .cover {
-    background: #2b2d34 url('../img/De Atlas Images/democratic-classroom.png') center;
+    background: #2b2d34 url('../img/De Atlas Images/Homepage image.png') center;
     background-size: cover;
     min-height: 50rem;
     height: auto;
