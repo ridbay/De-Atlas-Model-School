@@ -55,7 +55,7 @@ header,
     color: #46484a; }
   
   .cover {
-    background: #2b2d34 url(http://dev.turquoiseltd.com/wp-content/uploads/2017/05/081020159999_1_slide-970x677.jpg) center;
+    background: #2b2d34 url('../img/De Atlas Images/democratic-classroom.png') center;
     background-size: cover;
     min-height: 50rem;
     height: auto;
