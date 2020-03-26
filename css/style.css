@@ -100,8 +100,13 @@ li.nav-item .btn-white {
     color: white !important;
 }
 
-.navbar-nav .nav-item .nav-link:visited {
+/* .navbar-nav .nav-item .nav-link:visited {
     color: #0099CC!important;
+} */
+
+.navbar-transparent {
+    background: 0 0;
+    background-color: transparent !important;
 }
 
 .cover {
