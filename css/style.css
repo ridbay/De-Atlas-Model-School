@@ -84,7 +84,7 @@ li.nav-item .btn-white {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #CC0000!important;
+    color: rgb(0, 156, 204)!important;
 }
 
 .navbar-nav .nav-item .nav-link:focus {
