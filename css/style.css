@@ -86,7 +86,7 @@ body {
     width: 100%;
     color: #fff;
     padding-top: 1rem; }
-    .cover-other-pages {
+.cover-other-pages {
         background: #2b2d34 url('../img/De Atlas Images/1\ -\ Copy.jpg') center;
         background-size: cover;
         min-height: 20rem;
@@ -95,6 +95,15 @@ body {
         width: 100%;
         color: #fff;
         }
+ .cover-admissions-page {
+            background: #2b2d34 url('../img/De Atlas Images/9\ -\ Copy.jpg') center;
+            background-size: cover;
+            min-height: 20rem;
+            height: auto;
+            border-radius: 0;
+            width: 100%;
+            color: #fff;
+            }
     .cover h1 {
       font-weight: 200; }
     
