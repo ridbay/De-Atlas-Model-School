@@ -40,14 +40,16 @@
             <!-- Navbar brand -->
             <div class="d-flex flex-row">
                 <div class="p-2"><a class="navbar-brand" href="index.html">
-                    <a>
-                        <img src="./img/De Atlas Images/School Logo.png" height="70"
-                            class="d-inline-block align-top" alt="mdb logo">
+                        <a>
+                            <img src="./img/De Atlas Images/School Logo.png" height="70"
+                                class="d-inline-block align-top" alt="mdb logo">
 
-                    </a></div>
-                <div class="p-2 pt-3"><p class="text-uppercase  blue-text mb-0 pt2 ">De Atlas Model  <br>School</p></div>
-                
-              </div>
+                        </a></div>
+                <div class="p-2 pt-3">
+                    <p class="text-uppercase  blue-text mb-0 pt2 ">De Atlas Model <br>School</p>
+                </div>
+
+            </div>
 
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -111,34 +113,35 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-md-8 mb-4">
-                        <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+                        <h3 class="mb-5 font-weight-bold text-uppercase pink-text">write us</h3>
                         <!-- Form contact -->
-                        <form class="p-5 grey-text">
-                            <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
-                                <input type="text" id="form3" class="form-control form-control-sm">
-                                <label for="form3">Name: </label>
+                        <form>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="NAME">
                             </div>
-                            <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
-                                <input type="text" id="form32" class="form-control form-control-sm">
-                                <label for="form34">Subject</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="SUBJECT">
                             </div>
-                            <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
-                                <input type="text" id="form2" class="form-control form-control-sm">
-                                <label for="form2">Email</label>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="EMAIL">
                             </div>
-                            <div class="md-form form-sm"> <i class="fas fa-phone prefix"></i>
-                                <input type="text" id="form20" class="form-control form-control-sm">
-                                <label for="form20">Mobile</label>
+                            <div class="form-group">
+                                <div class="form-group">
+
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="MOBILE">
+                                </div>
+
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="MESSAGE"></textarea>
                             </div>
-                            
-                            <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
-                                <textarea type="text" id="form8" class="md-textarea form-control form-control-sm"
-                                    rows="4"></textarea>
-                                <label for="form8">Message</label>
-                            </div>
-                            <div class="text-center mt-4">
-                                <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
-                            </div>
+                            <button type="submit" class="btn pink white-text"> SUBMIT</button>
                         </form>
                         <!-- Form contact -->
                     </div>
@@ -152,10 +155,33 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 mb-4">
+                    <h3 class="mb-5 font-weight-bold text-uppercase pink-text">our address</h3>
+                    <div class="row">
+                        <div class="col-md-2 pr-0 mr-0 ">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="col-md-2">
+                            <p>
+                                De Atlas Model Schools,
+                                Ago Yusuf Community,
+                                Off Zuve - Ilogbo
+                                Eremi Road,
+                                Lagos. </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 mb-4">
                     <div id="map-container" class=" map-container mb-5" style="height: 400px"></div>
                 </div>
             </div>
         </div>
+
 
     </main>
 
@@ -252,17 +278,17 @@
     <script>
         // Initialize and add the map
         function initMap() {
-          // The location of lagos
-          var lagos = { lat: 6.6038835, lng: 3.3327518 };
-          // The map, centered at lagos
-          var map = new google.maps.Map(
-            document.getElementById('map-container'), { zoom: 10, center: lagos });
-          // The marker, positioned at lagos
-          var marker = new google.maps.Marker({ position: lagos, map: map });
+            // The location of lagos
+            var lagos = { lat: 6.6038835, lng: 3.3327518 };
+            // The map, centered at lagos
+            var map = new google.maps.Map(
+                document.getElementById('map-container'), { zoom: 10, center: lagos });
+            // The marker, positioned at lagos
+            var marker = new google.maps.Marker({ position: lagos, map: map });
         }
-      </script>
-      <!--Google Maps-->
-      <script async defer
+    </script>
+    <!--Google Maps-->
+    <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5r6ZTiIZejFS57-V15R2i9MVztnw67ZE&callback=initMap">
         </script>
 
