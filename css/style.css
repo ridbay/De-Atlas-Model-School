@@ -39,6 +39,17 @@ body {
     color: #3b3f8c !important;
 }
 
+.pink-text {
+    color: #f12997 !important;
+}
+
+.program-background {
+    background-color: #05c6f1;
+}
+.btn-custom {
+    background-color: #05c6f1;
+}
+
 .style-unordered-list {
     list-style: none;
 }
